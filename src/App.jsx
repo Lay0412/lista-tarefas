@@ -6,7 +6,7 @@ import ListaTarefas from './componentes/ListaTarefas'
 
 function App() {
   
-  let tarefas=["t1","t2","t3"]
+  let tarefas=["tarefa","tarefa2","tarefa3"]
 
   return (
     <>
@@ -30,6 +30,7 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p> */}
+       <h1>Lista de Tarefas</h1>
       <ListaTarefas/>
       
     </>

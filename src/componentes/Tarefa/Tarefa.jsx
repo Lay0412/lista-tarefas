@@ -1,5 +1,6 @@
 function Tarefa(props){
     return(
+             
         <p>{props.texto}</p>
     )
 
